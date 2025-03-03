@@ -1,0 +1,2 @@
+# soundcloud-purchase-links-scraper
+ This repository contains a Python tool that automates the process of extracting purchase links from public SoundCloud playlists. The script dynamically loads the entire playlist using Selenium, then parses the page to extract individual track URLs. For each track, it retrieves the track page and searches for a purchase links based on keywords (such as "buy", "purchase", or "kup").
